@@ -2,10 +2,10 @@
 
 /**
  * @wordpress-plugin
- * Plugin Name:       Kntnt Current Year SHortcode
+ * Plugin Name:       Kntnt Current Year Shortcode
  * Plugin URI:        https://www.kntnt.com/
  * Description:       Provides shortcode that output the current year.
- * Version:           1.0.0
+ * Version:           1.1.0
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+
@@ -14,6 +14,6 @@
 
 defined( 'ABSPATH' ) || die;
 
-add_shortcode( 'year', function() {
+add_shortcode( 'current-year', function() {
   return date( 'Y' );
 } );
